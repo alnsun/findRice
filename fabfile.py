@@ -17,8 +17,8 @@ def deploy_bak():
 
     with cd("/home/findRice"):
         if not exists("./findRice"):
-            print "Project not found, cloning from github: https://github.com/huangy10/findRice.git"
-            run("git clone https://github.com/huangy10/findRice.git")
+            print "Project not found, cloning from github: https://github.com/alnsun/findRice.git"
+            run("git clone https://github.com/alnsun/findRice.git")
     with cd("/home/findRice/findRice"):
         print "Updating source code from github"
         # update remote code
